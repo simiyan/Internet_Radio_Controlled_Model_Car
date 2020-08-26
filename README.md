@@ -98,6 +98,8 @@ Raspbian Buster Liteの「Download ZIP」からDownloadする
     - `sudo raspi-config  --expand-rootfs`
 5. dockerのinstall  
     ※homeディレクトリで  
+
+    ``` cmd
     `mkdir -p install/docker`  
     `cd install/docker`  
     curl -fsSL https://get.docker.com -o get-docker.sh  
@@ -113,6 +115,7 @@ Raspbian Buster Liteの「Download ZIP」からDownloadする
     sudo cp docker-compose-Linux-armv7l /usr/local/bin/docker-compose  
     sudo chown root:root /usr/local/bin/docker-compose  
     sudo chmod 755 /usr/local/bin/docker-compose
+    ````
 
 6. streamning serverの導入
    - docker pull openhorizon/mjpg-streamer-pi3:latest
@@ -168,3 +171,4 @@ Raspbian Buster Liteの「Download ZIP」からDownloadする
 - [Raspberry Piにdockerとdocker-composeを入れてみた](https://qiita.com/hoshi621/items/7906274326ef3013a73d)  
 - [いまさらだけどDockerに入門したので分かりやすくまとめてみた](https://qiita.com/gold-kou/items/44860fbda1a34a001fc1)
 - [コンテナに外部からアクセス（ポートフォワード）](https://qiita.com/tifa2chan/items/a58e34019d4f10097a4d)
+  
