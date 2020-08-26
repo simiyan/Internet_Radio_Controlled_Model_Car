@@ -1,7 +1,6 @@
 # Internet_Radio_Controlled_Model_Car
-インターネットラジコンプロジェクト
 
-# raspi_remote_car@rebuild
+インターネットラジコンプロジェクト
 
 ## 1.準備物
 
